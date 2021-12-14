@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  width: 100%;
-  padding: 1.5rem 15rem;
-  position: fixed;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 0rem;
+`;
 
-  top: 0;
-  left: 0;
-
-  background-image: linear-gradient(rgba(250, 238, 227, 0.98), rgb(224, 213, 204));
+export const Content = styled.div`
   nav {
     display: flex;
     justify-content: space-between;
@@ -24,7 +22,7 @@ export const Container = styled.header`
 
         a {
           font-size: 1.125rem;
-          color: var(--tiger-lily);
+          color: var(--gray-dark);
 
           transition: filter 0.2s;
 
@@ -38,8 +36,9 @@ export const Container = styled.header`
           display: flex;
           align-items: center;
           h3 {
+            padding: 0 0.5rem;
             font-size: 1.5rem;
-            color: var(--tiger-lily);
+            color: var(--gray-dark);
           }
         }
         img {
@@ -49,19 +48,16 @@ export const Container = styled.header`
     }
     button {
       font-size: 1.125rem;
-      padding: 1rem;
-      border-radius: 0.375rem;
+      padding: 0.8rem 3rem;
+      border-radius: 10rem;
       border: none;
 
-      color: var(--white-default);
+      color: var(--default);
 
-      background-color: var(--tiger-lily);
+      background: rgb(178, 78, 255);
+      background: linear-gradient(90deg, rgba(178, 78, 255, 1) 0%, rgba(245, 75, 117, 1) 100%);
 
-      transition: filter 0.2s;
-
-      &:hover {
-        filter: brightness(0.9);
-      }
+      transition: all 0.3s;
     }
   }
 `;
