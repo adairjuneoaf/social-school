@@ -3,7 +3,7 @@ import aboutSvg from "../../assets/team.svg";
 
 export function AboutUs() {
   return (
-    <Grid>
+    <Grid id="aboutus">
       <ImageAboutUs>
         <img src={aboutSvg} alt="Imagem ilustrativa sobre nós." />
       </ImageAboutUs>

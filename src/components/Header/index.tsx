@@ -16,16 +16,18 @@ export function Header() {
               </a>
             </div>
             <li>
-              <a href="/">Sobre nós</a>
+              <a href="#aboutus">Sobre nós</a>
             </li>
             <li>
-              <a href="/">O projeto</a>
+              <a href="#aboutapp">Sobre o app</a>
             </li>
             <li>
-              <a href="/">Sobre o app</a>
+              <a href="#aboutproject">O projeto</a>
             </li>
           </ul>
-          <motion.button whileHover={{ scale: 0.95 }}>Sou educador</motion.button>
+          <a href="/login">
+            <motion.button whileHover={{ scale: 0.95, transition: { duration: 0.3 } }}>Sou educador</motion.button>
+          </a>
         </nav>
       </Content>
     </Container>

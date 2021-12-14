@@ -56,8 +56,6 @@ export const Content = styled.div`
 
       background: rgb(178, 78, 255);
       background: linear-gradient(90deg, rgba(178, 78, 255, 1) 0%, rgba(245, 75, 117, 1) 100%);
-
-      transition: all 0.3s;
     }
   }
 `;

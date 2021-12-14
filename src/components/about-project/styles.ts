@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  margin-top: 12rem;
-  margin-bottom: 2rem;
-`;
-
 export const Grid = styled.div`
   display: flex;
-  align-items: center;
+  flex-direction: row;
+
   justify-content: space-around;
+  align-items: center;
+
   gap: 4rem;
+
+  margin-top: 12rem;
+  margin-bottom: 2rem;
 `;
 
 export const DescriptionAboutProject = styled.section`
@@ -39,50 +40,5 @@ export const ImageAboutProject = styled.section`
   max-width: 500px;
   img {
     width: 80%;
-  }
-`;
-
-export const CardsAboutProject = styled.section`
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 1rem;
-  grid-template-areas:
-    ". . ."
-    ". . .";
-
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-
-  margin-top: 8rem;
-
-  div {
-    width: 100%;
-    height: 200px;
-    border-bottom: 8px solid var(--purple-light);
-
-    text-align: center;
-
-    cursor: context-menu;
-
-    img {
-      height: 64px;
-    }
-
-    h2 {
-      font-size: 2rem;
-      color: var(--purple-light);
-
-      background: -webkit-linear-gradient(#7c5aa2, #ea4c75);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    p {
-    }
-    font-size: 1.125rem;
-    color: var(--gray-dark);
   }
 `;

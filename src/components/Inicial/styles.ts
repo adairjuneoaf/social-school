@@ -11,6 +11,16 @@ export const Grid = styled.div`
 export const Description = styled.section`
   max-width: 450px;
 
+  a {
+    img {
+      width: 40px;
+    }
+
+    & + a {
+      margin-left: 1.5rem;
+    }
+  }
+
   h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -25,6 +35,8 @@ export const Description = styled.section`
     font-size: 1rem;
     color: var(--blue-medium);
     text-align: justify;
+
+    margin-bottom: 1rem;
   }
 
   button {
