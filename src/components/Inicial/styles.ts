@@ -77,6 +77,9 @@ export const Image = styled.section`
 `;
 
 export const SocialMedia = styled.div`
+  @media (max-width: 1024px) {
+    max-width: 880px;
+  }
   margin-top: 12rem;
 
   i > a > svg {

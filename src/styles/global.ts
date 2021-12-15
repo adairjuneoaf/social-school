@@ -96,6 +96,12 @@ button{
     cursor: pointer;
 }
 
+p {
+  span{
+    color: var(--purple-light)
+  }
+}
+
 a{
     text-decoration: none;
 }

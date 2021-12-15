@@ -44,7 +44,10 @@ export function Footer() {
       </Content>
 
       <h4 className="creditos">
-        Feito com <span>&#10084;</span> por <a href="https://portfolio.prismasystems.com.br/">Adair Juneo</a>
+        Feito com <span>&#10084;</span> por{" "}
+        <a href="https://portfolio.prismasystems.com.br/" target="_blank">
+          Adair Juneo
+        </a>
       </h4>
     </Container>
   );

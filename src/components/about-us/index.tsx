@@ -10,12 +10,12 @@ export function AboutUs() {
 
       <DescriptionAboutUs>
         <h1>Sobre nós</h1>
-        <h3>Levar conhecimento através da tecnologia é o nosso compromisso.</h3>
+        <h3>Levar conhecimento até você com ajuda da tecnologia é o nosso compromisso.</h3>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima eaque quis saepe rem. Saepe blanditiis perspiciatis
-          iure. Consectetur labore mollitia eveniet, sint omnis maxime cum eaque blanditiis neque sapiente. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Ut vel iste veniam expedita soluta, mollitia sit exercitationem odio, consequuntur tempora quis
-          delectus hic. Mollitia alias officiis neque, voluptatibus minus laborum?
+          A social.school é uma instituição de ensino, com objetivo de <span>facilitar</span> o ensinamento, aprendizado e boas práticas de
+          estudo através da nossa <span>rede social</span>. A tecnologia é o nosso pilar para moldar as estruturas de ensino com auxílio da
+          tecnologia, sabemos o quanto pode ser difícil para muitas pessoas o acesso ao <span>ensino de qualidade</span>. Seja você jovem ou
+          idoso, com formação ou não, a nossa rede social de ensino <span>é para você!</span>
         </p>
       </DescriptionAboutUs>
     </Grid>

@@ -9,12 +9,12 @@ export function AboutProject() {
       </ImageAboutProject>
       <DescriptionAboutProject>
         <h1>O projeto</h1>
-        <h3>Levar conhecimento através da tecnologia é o nosso compromisso.</h3>
+        <h3>Um projeto de ensino desafiador que visa acessibilidade a todos!</h3>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minima eaque quis saepe rem. Saepe blanditiis perspiciatis
-          iure. Consectetur labore mollitia eveniet, sint omnis maxime cum eaque blanditiis neque sapiente. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Ut vel iste veniam expedita soluta, mollitia sit exercitationem odio, consequuntur tempora quis
-          delectus hic. Mollitia alias officiis neque, voluptatibus minus laborum?
+          O nosso projeto consiste numa <span>filosofia de ensino acessível</span> a todos com auxílio da tecnologia. Sabemos o quão
+          presente é a tecnologia em nossas vidas no dia a dia, mais presente ainda são as <span>redes sociais</span>, então surge a
+          social.school. Um projeto desenvolvido para de <span>ajudar você</span> com uma <span>rede social</span>. O nosso propósito é
+          <span>facilitar</span> a sua maneira de aprender.
         </p>
       </DescriptionAboutProject>
     </Grid>
