@@ -4,8 +4,6 @@ import { Container, Content, FormLogin } from "./styles";
 import logo from "../../assets/logo.svg";
 import { motion } from "framer-motion";
 
-import { FiAlertTriangle } from "react-icons/fi";
-
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

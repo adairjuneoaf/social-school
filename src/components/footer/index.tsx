@@ -45,7 +45,7 @@ export function Footer() {
 
       <h4 className="creditos">
         Feito com <span>&#10084;</span> por{" "}
-        <a href="https://portfolio.prismasystems.com.br/" target="_blank">
+        <a href="https://portfolio.prismasystems.com.br/" target="_blank" rel="noreferrer">
           Adair Juneo
         </a>
       </h4>
