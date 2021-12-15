@@ -1,5 +1,5 @@
 import { Description, Grid, Image, SocialMedia } from "./styles";
-import imgSmartphone from "../../assets/smartphone_school.svg";
+import imgSmartphone from "../../assets/webapp_social_school.svg";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import ImageAppStore from "../../assets/app-store.svg";
 import ImagePlayStore from "../../assets/google-play.svg";
@@ -11,8 +11,8 @@ export function Inicial() {
     <>
       <Grid>
         <Description>
-          <h1>Sua rede social escolar preferida</h1>
-          <h3>Se conecte agora e aprenda com todos!</h3>
+          <h1>Sua rede social escolar preferida!</h1>
+          <h3>Se conecte agora e aprenda com todos.</h3>
           <h4>Baixe agora o app nas principais lojas de aplicativos. O seu app preferido quando assunto é estudos e tecnologia.</h4>
 
           <a href="/" target="_blank">

@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.svg";
-import { Container, Content } from "./styles";
+import { Container, Content, ContentButtons, ContentLogo, ContentOptions } from "./styles";
 
 import { motion } from "framer-motion";
 
@@ -7,14 +7,14 @@ export function Header() {
   return (
     <Container>
       <Content>
-        <nav>
+        <ContentLogo>
+          <a href="/">
+            <img src={logo} alt="Logo social.school" />
+            <h3>social.school</h3>
+          </a>
+        </ContentLogo>
+        <ContentOptions>
           <ul>
-            <div>
-              <a href="/">
-                <img src={logo} alt="Logo social.school" />
-                <h3>social.school</h3>
-              </a>
-            </div>
             <li>
               <a href="#aboutus">Sobre nós</a>
             </li>
@@ -25,10 +25,13 @@ export function Header() {
               <a href="#aboutproject">O projeto</a>
             </li>
           </ul>
+        </ContentOptions>
+
+        <ContentButtons>
           <a href="/login">
             <motion.button whileHover={{ scale: 0.95, transition: { duration: 0.3 } }}>Sou educador</motion.button>
           </a>
-        </nav>
+        </ContentButtons>
       </Content>
     </Container>
   );

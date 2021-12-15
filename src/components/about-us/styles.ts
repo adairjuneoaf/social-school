@@ -11,6 +11,18 @@ export const Grid = styled.div`
 
   margin-top: 12rem;
   margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    section {
+      &:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
 `;
 
 export const DescriptionAboutUs = styled.section`

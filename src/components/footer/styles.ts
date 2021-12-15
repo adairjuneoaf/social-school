@@ -8,7 +8,7 @@ export const Container = styled.footer`
 
   .creditos {
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 2rem;
 
     a {
       color: var(--default);
@@ -24,6 +24,10 @@ export const Container = styled.footer`
       color: red;
     }
   }
+
+  @media (max-width: 768px) {
+    padding: 0 2rem;
+  }
 `;
 
 export const Content = styled.section`
@@ -32,8 +36,18 @@ export const Content = styled.section`
   justify-content: space-between;
 
   max-width: 1200px;
-  height: 180px;
+  gap: 1rem;
   margin: 0 auto;
+
+  padding: 2rem 0;
+
+  @media (max-width: 1024px) {
+    max-width: 880px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const SocialMedia = styled.div`
@@ -57,6 +71,12 @@ export const SocialMedia = styled.div`
     &:hover {
       filter: brightness(0.8);
     }
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 `;
 

@@ -10,6 +10,18 @@ export const Grid = styled.div`
   align-items: center;
   justify-content: space-around;
   gap: 4rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    section {
+      &:last-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
 `;
 
 export const DescriptionAboutApp = styled.section`
@@ -58,6 +70,10 @@ export const CardsAboutApp = styled.section`
 
   margin-top: 8rem;
 
+  @media (max-width: 768px) {
+    padding: 0 2rem;
+  }
+
   div {
     width: 100%;
     height: 200px;
@@ -80,5 +96,32 @@ export const CardsAboutApp = styled.section`
     }
     font-size: 1.125rem;
     color: var(--blue-medium);
+  }
+
+  @media (max-width: 1024px) {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". .";
+  }
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    grid-template-areas:
+      "."
+      "."
+      "."
+      "."
+      "."
+      ".";
   }
 `;

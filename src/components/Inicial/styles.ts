@@ -6,6 +6,19 @@ export const Grid = styled.div`
 
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    section {
+      &:last-child {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
 `;
 
 export const Description = styled.section`
@@ -86,5 +99,11 @@ export const SocialMedia = styled.div`
     &:hover {
       filter: brightness(0.8);
     }
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;

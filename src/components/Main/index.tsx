@@ -7,10 +7,13 @@ import { Header } from "../Header";
 import { Inicial } from "../Inicial";
 import { Content } from "./styles";
 
+import { useWindowSize } from "../../hooks/useWindowSize";
+import { MobileHeader } from "../MobileHeader";
 export function Main() {
+  const size = useWindowSize();
   return (
     <>
-      <Header />
+      {size?.width > 768 ? <Header /> : <MobileHeader />}
       <GlobalStyle />
       <Content>
         <Inicial />
