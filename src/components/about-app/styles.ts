@@ -70,10 +70,6 @@ export const CardsAboutApp = styled.section`
 
   margin-top: 8rem;
 
-  @media (max-width: 768px) {
-    padding: 0 2rem;
-  }
-
   div {
     width: 100%;
     height: 200px;

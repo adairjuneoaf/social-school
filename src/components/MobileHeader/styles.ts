@@ -12,6 +12,10 @@ export const Container = styled.header`
   @media (max-width: 768px) {
     max-width: 640px;
   }
+
+  @media (max-width: 425px) {
+    max-width: 384px;
+  }
 `;
 
 export const Content = styled.section`
@@ -39,7 +43,7 @@ export const ContentLogo = styled.div`
 
 export const ContentOptions = styled.div`
   nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;

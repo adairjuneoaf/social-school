@@ -9,4 +9,12 @@ export const Content = styled.main`
   @media (max-width: 1024px) {
     max-width: 880px;
   }
+
+  @media (max-width: 768px) {
+    max-width: 640px;
+  }
+
+  @media (max-width: 425px) {
+    max-width: 384px;
+  }
 `;

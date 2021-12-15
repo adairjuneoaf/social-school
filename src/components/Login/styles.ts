@@ -4,6 +4,10 @@ export const Container = styled.main`
   overflow: hidden;
   max-width: 550px;
   margin: 0 auto;
+
+  @media (max-width: 425px) {
+    max-width: 384px;
+  }
 `;
 export const Content = styled.section`
   margin-top: 8rem;
