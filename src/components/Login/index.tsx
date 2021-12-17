@@ -8,7 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export function Login() {
-  const loginWarning = () => toast("Ambiente de login ainda não finalizado!");
+  const loginWarning = () => toast.warn("Ambiente de login ainda não finalizado!");
 
   return (
     <>
